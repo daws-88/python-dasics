@@ -19,3 +19,19 @@ print(type(Const_pi))
 7. dictionart
 8. sets
 """
+
+is_live = True  ## True $$ False
+print(type(is_live))
+
+a = 10
+b = 5
+sum = a + b
+diff = a - b
+multi = a * b
+div = a / b # 2.0
+integer_div = a // b  # 2
+print(sum)
+print(diff)
+print(multi)
+print(div)
+print(integer_div)
