@@ -8,6 +8,9 @@ print(type(num_servers))
 Const_pi = 3.14 
 print(type(Const_pi))
 
+server = "docker host"
+print(type(server))
+
 ## this is multiline sting or block comment
 """
 1. integer or number
@@ -30,8 +33,16 @@ diff = a - b
 multi = a * b
 div = a / b # 2.0
 integer_div = a // b  # 2
+remainder = a % b # remainder
+
 print(sum)
 print(diff)
 print(multi)
 print(div)
 print(integer_div)
+print(remainder)
+
+a = 2 
+b = 3
+power = a ** b
+print(power)
