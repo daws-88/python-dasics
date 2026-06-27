@@ -2,9 +2,13 @@ server_1 = "172.32.12.45"
 server_2 = "12.32.45.4"
 servers = ["172.32.12.45", "12.32.45.4", True, "ansible", 12, 3.14]
 print(server_1, server_2,servers)
-server_2 = servers[1]
+server_3 = servers[1]
 print("server 2 IP is:", server_2)
 
+
+simple_slice = servers[1:]
+simple_slice = servers[:5]
+simple_slice = servers[:]
 ## slice fun 
 simple_slice = servers[0:3]
 print(simple_slice)
@@ -38,6 +42,13 @@ print("after modification:", servers)
 
 """
 1. append
+2. extend
+3. remove
+4. index
+5. sort vs sorted
+6. copy
+7. insert
+8. reverse
 """
 
 servers.append(False)
@@ -60,3 +71,22 @@ print(servers)
 
 servers.remove(True)
 print(servers)
+
+servers.reverse()
+print(servers)
+
+servers = servers[::-1] ## another way of reverse
+print(servers)
+
+hosts = [5, 9, 2, 8,4]
+# hosts.sort()
+# print(hosts)
+
+host_1 = sorted(hosts)
+print(hosts, host_1)
+
+hosts =  ["172.32.12.45", "12.32.45.4", True, "ansible", 12, 3.14]
+host_2 = hosts.copy()
+host_2.remove("ansible")
+print(hosts, host_2)
+
