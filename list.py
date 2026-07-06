@@ -31,7 +31,7 @@ print("Length of list:", len(simple_back))
 
 
 ## List is a mutable data type
-## MUTABLE: once we define ,we can change at any time EX: listt ,dict,set
+## MUTABLE: once we define ,we can change at any time EX: list ,dict,set
 ## IMMUTABLE once we define ,we can mot  change at any time EX : tuple 
 
 print("before modification:", servers)
