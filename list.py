@@ -90,3 +90,10 @@ host_2 = hosts.copy()
 host_2.remove("ansible")
 print(hosts, host_2)
 
+
+## pop
+fruits = ['apple', 'banana', 'cherry', 'date']
+last_fruit = fruits.pop()
+print(last_fruit)
+second_fruit = fruits.pop(1)
+print(second_fruit)
