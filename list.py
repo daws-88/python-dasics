@@ -32,7 +32,7 @@ print("Length of list:", len(simple_back))
 
 ## List is a mutable data type
 ## MUTABLE: once we define ,we can change at any time EX: list ,dict,set
-## IMMUTABLE once we define ,we can mot  change at any time EX : tuple 
+## IMMUTABLE once we define ,we can mot  change at any time EX : tuple , strings
 
 print("before modification:", servers)
 servers[-2] = 9652 ## inplace operation
@@ -79,7 +79,7 @@ servers = servers[::-1] ## another way of reverse
 print(servers)
 
 hosts = [5, 9, 2, 8,4]
-# hosts.sort()
+# hosts.sort() ## sort is inplace operation
 # print(hosts)
 
 host_1 = sorted(hosts)
@@ -97,3 +97,7 @@ last_fruit = fruits.pop()
 print(last_fruit)
 second_fruit = fruits.pop(1)
 print(second_fruit)
+
+# define list
+l1 = []
+l2 = list()

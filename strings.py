@@ -28,3 +28,6 @@ print("#".join(sample.split(" ")))
 
 ## concating means add two strings
 print("a" + "b")
+
+# print copy filepath
+print(r"C:\devops\daws-86s\repos\python-dasics\strings.py")
